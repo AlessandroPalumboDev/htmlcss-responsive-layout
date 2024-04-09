@@ -1,6 +1,129 @@
-/* RESET  */
+/****************************
+         RESET 
+****************************/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/***************************
+        UTILITIES 
+***************************/
+
+/* backgrounds */
+.bg-blue{
+    background-color: #0084FD;
+}
+
+.bg-sky{
+    background-color: #B5DDFF;
+}
+
+.bg-violet{
+    background-color:#9792E4 ;
+}
+
+.bg-footer{
+    background-color: #333333;
+}
+
+/* colors */
+.white{
+    color: white;
+}
+
+
+
+/* flex */
+.flex{
+    display: flex;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.a-items-center{
+    align-items: center;
+}
+
+
+/* altezze */
+.h-600{
+    height: 600px;
+}
+
+.h-300{
+    height: 300px;
+}
+
+.h-50{
+    height: 50px;
+}
+
+
+/* visibility */
+.desktop-only{
+    display: none;
+}
+
+
+/****************************
+         LAYOUT 
+ ****************************/
+.container{
+
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col{
+
+}
+
+.content{
+
+}
+
+/* header  */
+header col.{
+    width: 50%;
+}
+
+header .col .content{
+    margin: 0 20px;
+    align-items: center;
+    display: flex;
+}
+
+header .desktop-only .content ul{
+    display: flex;
+    list-style-type: none;
+}
+
+header .desktop-only .content li{
+    padding-left: 10px;
+}
+
+
+
+
+/****************************
+         RESPONSIVE 
+ ****************************/
+
+ /* desktop  */
+ @media screen and (min-width: 768px) {
+    .desktop-only{
+        display: block;
+    }
+
+    .mobile-only{
+        display: none;
+    }
+
+ }
