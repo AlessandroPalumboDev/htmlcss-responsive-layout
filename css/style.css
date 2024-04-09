@@ -73,7 +73,7 @@
          LAYOUT 
  ****************************/
 .container{
-
+    margin: 0 auto;
 }
 
 .row{
@@ -106,10 +106,27 @@ header .desktop-only .content ul{
 }
 
 header .desktop-only .content li{
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 
+
+
+/* main */
+.jumbo .container{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.jumbo .col{
+    width: 100%;
+}
+
+.jumbo .content{
+    border-radius: 40px;
+    margin-top: 20px ;
+
+}
 
 
 /****************************
@@ -117,7 +134,35 @@ header .desktop-only .content li{
  ****************************/
 
  /* desktop  */
+@media screen and (min-width: 480px) {
+    .container{ 
+        max-width: 100%;
+    }
+
+    .jumbo .row{
+        gap: 20px;
+    }
+
+    .jumbo .w-66 {
+        width: calc(100% / 3 * 2 - 20px);
+    }
+
+    .jumbo .w-66 .content{
+        height: 300px;
+    }
+
+    .jumbo .w-33 {
+        width: calc(100% / 3 - 20px);
+    }
+}
+
+
+
  @media screen and (min-width: 768px) {
+    .container{
+        max-width: 1200px;
+    }
+
     .desktop-only{
         display: block;
     }
@@ -125,5 +170,7 @@ header .desktop-only .content li{
     .mobile-only{
         display: none;
     }
+
+
 
  }
