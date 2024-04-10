@@ -77,6 +77,14 @@
     text-decoration: none;
 }
 
+.btn-footer{
+    background-color: white;
+    color: #9792E4;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
 
 /* border */
 .border{
@@ -401,12 +409,31 @@ p{
     justify-content: center;
 }
 
-.top-footer .col{
-    width: 40%;
-}
-
 .top-footer .content{
     margin: 10px 0;
+}
+
+.top-footer h4{
+    color: lightgrey;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+
+.top-footer h3{
+    color: white;
+    font-size:20px;
+    margin-bottom: 20px;
+}
+
+.top-footer h2{
+    color: orange;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.top-footer p{
+    margin: 40px 0;
 }
 
 /* bottom-footer */
