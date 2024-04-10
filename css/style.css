@@ -57,6 +57,7 @@
 }
 
 
+
 /* altezze */
 .h-600{
     height: 600px;
@@ -117,14 +118,16 @@ header .desktop-only .content li{
     padding-left: 20px;
 }
 
-.jumbo{
-    margin-bottom: 30px;
-}
+
 
 
 /* MAIN */
 
 /* jumbo */
+.jumbo{
+    margin-bottom: 30px;
+}
+
 .jumbo .container{
     margin: 0 auto;
     width: 80%;
@@ -179,6 +182,48 @@ header .desktop-only .content li{
     margin: 10px 0;
 }
 
+/* benefits */
+.benefits{
+    padding: 30px;
+}
+
+.benefits .container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.benefits .row{
+    gap: 30px;
+}
+
+.benefits .col{
+    width: 100%;
+}
+
+.benefits .content{
+    border-radius: 40px;
+    margin: 10px 0;
+}
+
+/* about */
+.about{
+    padding: 30px;
+}
+
+.about .container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.about .col{
+    width: 100%;
+}
+
+.about .content{
+    border-radius: 40px;
+    margin: 10px 0;
+}
+
 
 /****************************
          RESPONSIVE 
@@ -205,6 +250,18 @@ header .desktop-only .content li{
     .jumbo .w-33 {
         width: calc(100% / 3 - 20px);
     }
+
+    .benefits .w-33{
+        width: calc(100% / 2 - 15px)
+    }
+
+    .about .w-80{
+        width: 80%;
+    }
+
+    .about .w-20{
+        width: 20%;
+    }
 }
 
 
@@ -224,6 +281,10 @@ header .desktop-only .content li{
 
     .planning .col{
         width: 50%;
+    }
+
+    .benefits .w-33{
+        width: calc(100% / 3 - 20px)
     }
 
 
