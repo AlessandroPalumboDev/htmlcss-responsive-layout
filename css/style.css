@@ -69,6 +69,14 @@
     text-align: center;
 }
 
+.btn-violet{
+    background-color: #9792E4;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 40px;
+    text-decoration: none;
+}
+
 
 /* border */
 .border{
@@ -324,6 +332,19 @@ p{
 .benefits .content{
     border-radius: 40px;
     margin: 10px 0;
+    padding: 20px 30px;
+}
+
+.benefits .w-33 h2 {
+    font-size: 50px;
+}
+
+.benefits .w-33 h3{
+    font-size: 30px;
+}
+
+.benefits .w-33 h3, .benefits .w-33 h2, .benefits .w-33 p {
+    margin-bottom: 20px;
 }
 
 /* about */
