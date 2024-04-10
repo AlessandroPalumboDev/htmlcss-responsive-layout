@@ -42,6 +42,10 @@
     border: 1px solid black;
 }
 
+.border-w{
+    border: 1px solid white;
+}
+
 
 /* flex */
 .flex{
@@ -223,6 +227,56 @@ header .desktop-only .content li{
     border-radius: 40px;
     margin: 10px 0;
 }
+
+/* FOOTER */
+
+/* top-footer */
+.top-footer{
+    width: 100%;
+    padding: 30px;
+}
+
+.top-footer .container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.top-footer .row{
+    justify-content: center;
+}
+
+.top-footer .col{
+    width: 40%;
+}
+
+.top-footer .content{
+    margin: 10px 0;
+}
+
+/* bottom-footer */
+.bottom-footer{
+    width: 100%;
+    padding: 30px;
+}
+
+.bottom-footer .container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.bottom-footer .row{
+    justify-content: center;
+}
+
+.bottom-footer .col{
+    width: 40%;
+}
+
+.bottom-footer .content{
+    margin: 10px 0;
+}
+
+
 
 
 /****************************
