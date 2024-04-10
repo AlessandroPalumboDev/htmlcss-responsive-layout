@@ -451,12 +451,13 @@ p{
     justify-content: center;
 }
 
-.bottom-footer .col{
-    width: 40%;
-}
 
 .bottom-footer .content{
     margin: 10px 0;
+}
+
+.bottom-footer p{
+    margin: 30px 0;
 }
 
 
