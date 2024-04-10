@@ -155,7 +155,6 @@ header .desktop-only .content li{
 .planning .container{
     width: 80%;
     margin: 0 auto;
-
 }
 
 .planning .col{
@@ -194,10 +193,6 @@ header .desktop-only .content li{
 .benefits .container{
     width: 80%;
     margin: 0 auto;
-}
-
-.benefits .row{
-    gap: 30px;
 }
 
 .benefits .col{
@@ -290,7 +285,11 @@ header .desktop-only .content li{
     }
 
     .jumbo .row{
-        gap: 20px;
+        margin: 0 -15px;
+    }
+
+    .jumbo .col{
+        margin: 0 10px;
     }
 
     .jumbo .w-66 {
@@ -305,8 +304,16 @@ header .desktop-only .content li{
         width: calc(100% / 3 - 20px);
     }
 
+    .benefits .row{
+        margin: 0 -10px;
+    }
+
+    .benefits .col{
+        margin: 0 10px;
+    }
+
     .benefits .w-33{
-        width: calc(100% / 2 - 15px)
+        width: calc(100% / 2 - 20px)
     }
 
     .about .w-80{
@@ -337,11 +344,11 @@ header .desktop-only .content li{
         width: 50%;
     }
 
+    .col-bassa{
+        align-self: flex-end;
+    }
+
     .benefits .w-33{
         width: calc(100% / 3 - 20px)
     }
-
-
-
-
  }
