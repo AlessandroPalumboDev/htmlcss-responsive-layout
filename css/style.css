@@ -24,6 +24,10 @@
     background-color:#9792E4 ;
 }
 
+.bg-white{
+    background-color: white;
+}
+
 .bg-footer{
     background-color: #333333;
 }
@@ -33,6 +37,10 @@
     color: white;
 }
 
+/* border */
+.border{
+    border: 1px solid black;
+}
 
 
 /* flex */
@@ -90,7 +98,7 @@
 }
 
 /* header  */
-header col.{
+header col{
     width: 50%;
 }
 
@@ -109,10 +117,14 @@ header .desktop-only .content li{
     padding-left: 20px;
 }
 
+.jumbo{
+    margin-bottom: 30px;
+}
 
 
+/* MAIN */
 
-/* main */
+/* jumbo */
 .jumbo .container{
     margin: 0 auto;
     width: 80%;
@@ -128,6 +140,21 @@ header .desktop-only .content li{
 
 }
 
+/* planning */
+.planning .container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.planning .col{
+    width: 100%;
+}
+
+.planning .content{
+    border-radius: 40px;
+    margin-top: 40px ;
+    margin-bottom: 40px;
+}
 
 /****************************
          RESPONSIVE 
@@ -169,6 +196,11 @@ header .desktop-only .content li{
 
     .mobile-only{
         display: none;
+    }
+
+    .planning .col{
+        width: 50%;
+        -ms-flex-align: end;
     }
 
 
